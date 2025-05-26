@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    font-family: "Playfair Display", serif;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.digital-clock{
+    background-color: rgb(238, 236, 234);
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 70px 1px rgb(255, 251, 0) ;
+    /* color: white;
+    font-weight: bold; */
+
+}
+.font{
+    font-size: 3.5em;
+}
