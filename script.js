@@ -2,8 +2,13 @@ function updateTime(){
 let today = new Date();
             // get hours
 let hours = today.getHours();
-hours = hours<10?'0'+hours:hours;
-document.querySelector('.hour').textContent = hours;
+
+let hours12 = hours % 12;
+if(hours12 === 0){
+    hours12=12;
+}
+hours12 = hours12<10?'0'+hours12:hours12;
+document.querySelector('.hour').textContent = hours12;
 
             // get minutes
 let minutes = today.getMinutes();
